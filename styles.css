@@ -12,6 +12,8 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+/* main header styles start */
+
 .main-header {
     display: flex;
     justify-content: space-between;
@@ -51,3 +53,5 @@ body {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+/* main header styles end */
