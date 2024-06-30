@@ -54,4 +54,40 @@ body {
     color: #E5E7EB;
 }
 
+
 /* main header styles end */
+
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 55vh;
+    background-color: #1F2937;
+}
+
+.main-section {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 200px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    max-width: 450px;
+}
+
+.section-paragraph {
+    font-size: 18px;
+    color: #E5E7EB;
+    max-width: 450px;
+}
+
+.sign-up {
+    max-width: 75px;
+}
