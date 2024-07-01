@@ -99,3 +99,12 @@ main {
     font-size: 16px;
     border: 0;
 }
+
+.main-image {
+    width: 500px;
+}
+
+.image {
+    position: absolute;
+    margin-left: 100vh;
+}
