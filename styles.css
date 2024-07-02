@@ -138,13 +138,19 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 70px;
+    margin-top: 48px;
+    padding-bottom: 48px;     /*remove this padding later */
 }
 
 .info-image {
     width: 200px;
+    border: 4px solid blue;
+    border-radius: 10px;
 }
 
 .info p {
+    margin-top: 4px;
     text-align: center;
-    max-width: 150px;
+    max-width: 200px;
 }
