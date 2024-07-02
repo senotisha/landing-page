@@ -69,10 +69,25 @@ main {
 
 .main-section {
     display: flex;
-    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.column-left {
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 200px;
+    align-items: flex-start;
+    margin-left: 200px;
+    flex: 1;
+}
+
+.column-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
 }
 
 .section-header {
@@ -94,7 +109,7 @@ main {
     margin-top: 16px;
     color: #F9FAF8;
     font-weight: bold;
-    max-width: 120px;
+    width: 120px;
     height: 30px;
     background-color: #3882F6;
     border-radius: 5px;
@@ -106,10 +121,7 @@ main {
     width: 500px;
 }
 
-.image {
-    position: absolute;
-    margin-left: 100vh;
-}
+
 
 /* main section styles start */
 
