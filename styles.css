@@ -122,7 +122,6 @@ main {
 }
 
 
-
 /* main section styles start */
 
 
@@ -133,4 +132,19 @@ main {
     align-items: center;
     color: #1F2937;
     padding-top: 50px;
+}
+
+.info-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-image {
+    width: 200px;
+}
+
+.info p {
+    text-align: center;
+    max-width: 150px;
 }
