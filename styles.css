@@ -140,7 +140,6 @@ main {
     align-items: center;
     gap: 70px;
     margin-top: 58px;
-    padding-bottom: 48px;     /*remove this padding later */
 }
 
 .info-image {
@@ -154,4 +153,33 @@ main {
     text-align: center;
     max-width: 200px;
     color: #515761
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    margin-top: 200px;
+    padding: 100px;
+    margin-bottom: 200px;
+}
+
+.quote-paragraph {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-top {
+    max-width: 45%;
+}
+
+.quote-bottom {
+    font-size: 24px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: bold;
+    margin-left: 500px;
 }
