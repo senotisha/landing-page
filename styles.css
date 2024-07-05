@@ -72,6 +72,7 @@ main {
     justify-content: space-between;
     align-items: center;
     margin-top: 90px;
+    flex: 1;
 }
 
 .column-left {
@@ -133,6 +134,7 @@ main {
     align-items: center;
     color: #1F2937;
     padding-top: 50px;
+    flex: 1;
 }
 
 .info-section{
@@ -141,6 +143,7 @@ main {
     align-items: center;
     gap: 70px;
     margin-top: 58px;
+    flex: 1;
 }
 
 .info-image {
@@ -166,9 +169,10 @@ main {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    margin-top: 200px;
+    margin-top: 170px;
     padding: 100px;
     margin-bottom: 120px;
+    flex: 1;
 }
 
 .quote-paragraph {
@@ -191,10 +195,13 @@ main {
 
 /* quote section styles end */
 
+/* ad section styles start */
+
 .ad-section {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
+    flex: 1;
 }
 
 .ad-left, .ad-right {
@@ -226,3 +233,24 @@ main {
 .ad-right {
     border-radius: 0px 10px 10px 0px;
 }
+
+/* ad section styles end */
+
+/* footer section styles start */
+
+.main-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 40px;
+    margin-top: 70px;
+    flex: 1;
+}
+
+.footer-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/* footer section styles end */
