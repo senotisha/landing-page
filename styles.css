@@ -168,7 +168,7 @@ main {
     background-color: #E5E7EB;
     margin-top: 200px;
     padding: 100px;
-    margin-bottom: 200px;
+    margin-bottom: 120px;
 }
 
 .quote-paragraph {
@@ -190,3 +190,39 @@ main {
 }
 
 /* quote section styles end */
+
+.ad-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.ad-left, .ad-right {
+    background-color: #3882F6;
+    padding: 50px 130px;
+}
+
+.ad-left h1, .ad-left p {
+    color: #E5E7EB
+}
+
+.ad-button {
+    border-radius: 10px;
+    background-color: #3882F6;
+    font-weight: bold;
+    width: 120px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #E5E7EB;
+    margin-top: 10px;
+}
+
+.ad-left {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.ad-right {
+    border-radius: 0px 10px 10px 0px;
+}
